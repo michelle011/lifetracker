@@ -8,7 +8,6 @@ import apiClient from "../../services/apiClient";
 import { useAuthContext } from "../../contexts/auth";
 
 export default function LoginForm(props) {
-  // const { user, setUser} = useAuthContext()
   const navigate = useNavigate();
   const [isProcessing, setIsProcessing] = useState(false);
   const [errors, setErrors] = useState({});
@@ -54,6 +53,7 @@ export default function LoginForm(props) {
     <div className="login-form">
       <div className="container">
         <h2>Login</h2>
+        <h3 className="login-err">Login to track your lifestyle.</h3>
         {Boolean(errors.form) && <span className="error">{errors.form}</span>}
         <br />
         <div className="inputs">
@@ -89,9 +89,9 @@ export default function LoginForm(props) {
         <div className="footer">
           <p>
             Don't have an account? Sign up
-            <span className="blank">_</span>
+            <span className="blank"> </span>
             <Link className="link" to="/register">
-              here
+              here.
             </Link>
           </p>
         </div>

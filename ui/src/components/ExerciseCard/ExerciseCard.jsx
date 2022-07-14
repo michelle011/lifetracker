@@ -5,6 +5,10 @@ export default function ExerciseCard(props) {
   return (
     <div className="exercise-card">
       <div className="card-header">
+        <img
+          src="http://codepath-lifetracker.surge.sh/static/media/icons-workout-48.4f4cdb05.svg"
+          alt="exercise"
+        />
         <h2 className="titles">{props.name}</h2>
       </div>
       <div className="card-stats">

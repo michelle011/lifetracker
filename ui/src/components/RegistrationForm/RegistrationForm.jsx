@@ -173,8 +173,8 @@ export default function RegistrationForm(props) {
         <div className="footer">
           <p>
             Already have an account? Login
-            <span className="blank">_</span>
-            <Link to="/login">here</Link>
+            <span className="blank"> </span>
+            <Link to="/login">here.</Link>
           </p>
         </div>
       </div>

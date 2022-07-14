@@ -1,67 +1,70 @@
-/* .activity-feed{
-    display: flex;
-    flex-direction: column;
+.activity-feed {
+  display: flex;
+  flex-direction: column;
+  background: #2c4147;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 100%;
 }
-.actions{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
-.activity-feed{
-    display: flex;
-    flex-direction: column;
-    background: #2c4147;
+.stats {
+  width: 80%;
+  margin-left: 10%;
 }
-/* .container{
-    display: flex;
-    flex-direction: column;
-} */
-.actions{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 100%;
+.btnd {
+  margin-left: 400px;
+  padding: 10px;
 }
-.stats{
-    width: 80%;
-    margin-left: 10%
+h2 {
+  font-size: 42px;
+  margin-left: -100px;
+  color: white;
 }
-.btnd{
-    margin-left: 500px;
+h4 {
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
 }
-h2{
-    font-size: 42px;
-    margin-left: -100px;
-    color: white;
+.button-e {
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #03c5d1;
+  color: #03c5d1;
+  margin: 10px;
 }
-h4{
-    font-weight: 700;
-    font-size: 30px;
-    color: white;
+
+.button-n {
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #03c5d1;
+  color: #03c5d1;
+  margin: 10px;
 }
-.button{
-    background: transparent;
-    font-size: 18px;
-    padding: 10px;
-    border: 1px solid #03c5d1;
-    color: #03c5d1;
-    border-radius: 5%;
+
+.button-s {
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #03c5d1;
+  color: #03c5d1;
+  margin: 10px;
 }
-.per-category{
-    display: grid;
-    grid-template-columns: auto auto auto;
+
+.per-category {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
-.per-day{
-    display: grid;
-    grid-template-columns: auto auto auto;
+.per-day {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
-.stats .here{
-    margin-left: 380px;
+.stats .here {
+  margin-left: 380px;
 }
