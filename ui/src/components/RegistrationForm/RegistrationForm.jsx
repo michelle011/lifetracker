@@ -77,29 +77,6 @@ export default function RegistrationForm(props) {
       navigate("/activity");
     }
     setIsProcessing(false);
-    // try{
-    //     const res = await axios.post("http://localhost:3001/auth/register", {
-    //         email : form.email,
-    //         username: form.username,
-    //         first_name: form.firstName,
-    //         last_name: form.lastName,
-    //         password: form.password
-    //     })
-    //     if(res?.data?.user){
-    //         props.setUser(res.data)
-    //         console.log("res.data", res.data)
-    //         setIsProcessing(false)
-    //         navigate("/activity")
-    //     }else{
-    //         setErrors((e) => ({...e, form: "Something went wrong with registration"}))
-    //         setIsProcessing(false)
-    //     }
-    // }catch(err){
-    //     console.log(err)
-    //     const message = err?.response?.data?.error?.message
-    //     setErrors((e) => ({...e, form: message ? String(message) : String(err)}))
-    //     setIsProcessing(false)
-    // }
   };
   return (
     <div className="registeration-form">
