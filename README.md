@@ -8,6 +8,8 @@ Everywhere around us is data waiting to be collected and utilized. In recent yea
 
 This application will be built using the battle-tested PERN stack - PostgreSQL, Express, React, and Node.
 
+(Deployed Site)[https://lifetracker-foxromero.surge.sh/]
+
 ## Goals
 
 Building this application you will accomplish the following:
