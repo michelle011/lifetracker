@@ -9,6 +9,7 @@ Everywhere around us is data waiting to be collected and utilized. In recent yea
 This application will be built using the battle-tested PERN stack - PostgreSQL, Express, React, and Node.
 
 [Deployed Site](https://lifetracker-foxromero.surge.sh/)
+
 [Lifetracker Demo (Loom)](https://www.loom.com/share/0d6bfa76afac41ce9f74fa7b5cf8b0c7)
 
 ## Goals
